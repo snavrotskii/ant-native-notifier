@@ -2,9 +2,7 @@
 
 This ant build tool listener makes system tray notification after build completion.
 
-![alt text](https://user-images.githubusercontent.com/33085728/32001653-0a48c2cc-b9a3-11e7-9787-7b8615e7ae55.png)
-
-![alt text](https://user-images.githubusercontent.com/33085728/32113170-30ff8f58-bb48-11e7-8f9e-3884db53cb5a.png)
+![alt text](https://user-images.githubusercontent.com/33085728/32001653-0a48c2cc-b9a3-11e7-9787-7b8615e7ae55.png)  ![alt text](https://user-images.githubusercontent.com/33085728/32113170-30ff8f58-bb48-11e7-8f9e-3884db53cb5a.png)
 
 ## Getting Started
 
