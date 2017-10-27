@@ -25,7 +25,7 @@ cd ./ant-native-notifier/
 mvn clean package
 ```
 ```
-set ANT_ARGS= -listener name.snavrotskiy.ant.listener.AntNativeNotificationListener -lib %cd%\target\ant-native-notifier-1.0-SNAPSHOT.jar
+set ANT_ARGS= -listener name.snavrotskiy.ant.listener.AntNativeNotificationListener -lib %cd%\target\ant-native-notifier-1.0-SNAPSHOT-jar-with-dependencies.jar
 ```
 
 ```
@@ -44,7 +44,7 @@ cd ./ant-native-notifier/
 mvn clean package
 ```
 ```
-export ANT_ARGS='-listener name.snavrotskiy.ant.listener.AntNativeNotificationListener -lib '$(PWD)'/target/ant-native-notifier-1.0-SNAPSHOT.jar'
+export ANT_ARGS='-listener name.snavrotskiy.ant.listener.AntNativeNotificationListener -lib '$(PWD)'/target/ant-native-notifier-1.0-SNAPSHOT-jar-with-dependencies.jar'
 ```
 
 ```
