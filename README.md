@@ -52,6 +52,14 @@ cd to ant based project
 ant build
 ```
 
+### Configuration
+Notifiers can be configured by creating the file $HOME/.send-notification.
+This file should contains properties in the form: key = value.
+
+    notifier.implementation = which implementation to use. (growl, notificationcenter, simplenc notifysend, systemtray, snarl, pushbullet, kdialog, notifu, anybar, toaster, notify, burnttoast, slack).
+
+Please find more details in [send-notification/wiki](https://github.com/jcgay/send-notification/wiki)
+
 ## License
 
 This project is licensed under the MIT License - see the [LICENSE.md](LICENSE.md) file for details

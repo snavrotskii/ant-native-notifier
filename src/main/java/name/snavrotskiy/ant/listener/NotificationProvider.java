@@ -16,7 +16,7 @@ final class NotificationProvider {
     /**
      * Timeout for showing notification.
      */
-    private static final int MAX_TIMEOUT_MILLIS = 6000;
+    private static final int MAX_TIMEOUT_MILLIS = 2000;
 
     /**
      * Default constructor for notification provider.
