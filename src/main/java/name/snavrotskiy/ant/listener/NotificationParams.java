@@ -1,6 +1,5 @@
 package name.snavrotskiy.ant.listener;
 
-import com.google.common.base.Preconditions;
 import org.jetbrains.annotations.NotNull;
 
 import java.net.URL;
@@ -32,10 +31,6 @@ class NotificationParams {
      * @param notificationMessage notification message
      */
     NotificationParams(@NotNull final URL trayIcon, @NotNull final String notificationTitle, @NotNull final String notificationMessage) {
-        Preconditions.checkNotNull(trayIcon);
-        Preconditions.checkNotNull(notificationTitle);
-        Preconditions.checkNotNull(notificationMessage);
-
         icon = trayIcon;
         title = notificationTitle;
         message = notificationMessage;
@@ -66,14 +61,5 @@ class NotificationParams {
      */
     String getMessage() {
         return message;
-    }
-
-    @Override
-    public String toString() {
-        return "NotificationParams{"
-                + "icon=" + icon
-                + ", title='" + title + '\''
-                + ", message='" + message + '\''
-                + '}';
     }
 }
